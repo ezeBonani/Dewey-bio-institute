@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
   let scroll = d.documentElement.scrollTop;
   if (w.matchMedia("(min-width: 1200px)").matches) {
     if (scroll != 0) {
-      header.style.height = "40px";
+      header.style.height = "50px";
       logo.style.width = "7rem";
     } else {
       header.style.height = "100px";
