@@ -350,9 +350,6 @@ footer p.footer-link:hover {
   body {
     overflow-x: hidden;
   }
-  #header {
-    position: sticky;
-  }
   h2 {
     font-size: 1.8rem;
   }
