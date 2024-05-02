@@ -47,8 +47,6 @@ navbarToggler.addEventListener("click", () => {
 /* cierre del navbar cuando clikeo en link */
 navLink.forEach((item) => {
   item.addEventListener("click", () => {
-    console.log(navbarToggler.ariaExpanded);
-    console.log(navbarNav);
     if (navbarToggler.ariaExpanded === "true") {
       navbarNav.classList.remove("show");
     }
