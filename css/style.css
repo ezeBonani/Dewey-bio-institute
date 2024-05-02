@@ -13,8 +13,13 @@ html {
 }
 
 #header {
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
   border-bottom: 1px solid var(--separator);
+}
+
+.navbar-brand {
+  margin: 0;
+  width: 190px;
 }
 
 #link-whatsapp {
@@ -22,10 +27,12 @@ html {
   color: #fff;
 }
 
+#navbarNav {
+  max-width: 1300px;
+}
+
 .navbar {
   font-family: Arial, Helvetica, sans-serif;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 2000;
 }
@@ -102,6 +109,10 @@ nav.bg-nav {
 
 #icon-social.bi.bi-whatsapp:hover {
   color: #0eb30b;
+}
+
+#carousel {
+  margin-top: 100px;
 }
 
 .carousel-control-prev-icon,

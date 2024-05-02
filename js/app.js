@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
       setTimeout(() => {
         logo.style.width =
           "12rem"; /* agrego timer para mejorar la visual al cambiar de tamaño */
-      }, 100);
+      }, 200);
     }
   } else {
     if (navbarToggler.ariaExpanded === "false") {
@@ -30,7 +30,7 @@ window.addEventListener("scroll", () => {
         setTimeout(() => {
           logo.style.width =
             "12rem"; /* agrego timer para mejorar la visual al cambiar de tamaño */
-        }, 150);
+        }, 200);
         header.style.height = "100px";
       }
     }
