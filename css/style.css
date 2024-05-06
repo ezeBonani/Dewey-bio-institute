@@ -13,6 +13,7 @@ html {
 }
 
 #header {
+  height: 100px;
   transition: all 0.3s ease;
   border-bottom: 1px solid var(--separator);
 }
@@ -176,7 +177,7 @@ p {
 
 .videos-testimonios {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   gap: 15px;
   width: 80vw;
   overflow-x: scroll;
