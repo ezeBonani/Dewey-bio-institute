@@ -356,6 +356,14 @@ footer p.footer-link:hover {
     justify-content: left;
     padding-left: 20px;
   }
+  .container.social ul {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
   h5.texto-carousel {
     font-size: 1.8rem;
   }
@@ -420,7 +428,7 @@ footer p.footer-link:hover {
     font-size: 1.3rem;
   }
   .logo {
-    width: 10rem;
+    width: 12rem;
   }
   .card-title {
     font-size: 1.2rem;
