@@ -112,6 +112,10 @@ nav.bg-nav {
   color: #0eb30b;
 }
 
+#icon-social.bi.bi-youtube:hover {
+  color: #fe1818;
+}
+
 #carousel {
   margin-top: 100px;
 }
