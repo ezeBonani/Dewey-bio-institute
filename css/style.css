@@ -236,9 +236,21 @@ p {
   color: #ffffff;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .card-text {
   font-size: 1rem;
   padding: 0.5rem;
+}
+
+.modal-content {
+  height: 90%;
 }
 
 .modal-body {
@@ -376,6 +388,9 @@ footer p.footer-link:hover {
   }
   .card-body img {
     height: 12rem;
+  }
+  .modal-content {
+    height: 80%;
   }
   .instituto {
     padding-right: 8rem;
