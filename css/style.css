@@ -189,8 +189,13 @@ p {
 
   iframe {
     width: 300px;
-    height: 450px;
+    height: 430px;
   }
+}
+
+.video-grande {
+  width: 500px;
+  height: 300px;
 }
 
 .card {
@@ -251,6 +256,10 @@ p {
 .card-text {
   font-size: 1rem;
   padding: 0.5rem;
+}
+
+.modal {
+  z-index: 2001;
 }
 
 .modal-content {
@@ -454,6 +463,10 @@ footer p.footer-link:hover {
   }
   .card-body img {
     height: 7.5rem;
+  }
+  .video-grande {
+    width: 100%;
+    height: 300px;
   }
   #modal1,
   #modal2 {
