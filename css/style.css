@@ -210,10 +210,11 @@ p {
   transform: translateY(-7px);
 }
 
+/* para usar cuando haya que anunciar fechas */
 .flag {
   position: relative;
 }
-
+/* para usar cuando haya que anunciar fechas */
 .flag-shape {
   border-radius: 0px 5px 0px 5px;
   position: absolute;
@@ -225,7 +226,7 @@ p {
   border-top: 100px solid yellow;
   border-left: 100px solid transparent;
 }
-
+/* para usar cuando haya que anunciar fechas */
 .flag-text {
   position: absolute;
   z-index: 2;
